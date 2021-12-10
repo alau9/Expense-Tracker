@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+form {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 1rem;
+    margin-left: .2rem;
+}
+
+form {
+    padding-bottom: 4rem;
+}
+
+table {
+    margin: auto;
+    width: 50%;
+    height: 30%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid #333;
+}
+
+td {
+    margin: auto;
+    border: 1px solid;
+
+}

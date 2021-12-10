@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style class="css"></style>
+    <title>Expense Tracker</title>
+</head>
+
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+    <form>
+        <label for="date">Date</label>
+        <input type="date" class='date-input' id="date">
+        <label for="description">Description</label>
+        <input type="text" class='description-input' id='description'>
+        <label for="amount">Amount</label>
+        <input type="number" class='amount-input' id='amount'>
+        <button type="submit" class='expense-button'>submit</button>
+    </form>
+    <table class=expense-table>
+        <thead>
+            <tr>
+                <th colspan="1">Date</th>
+                <th colspan="1">Description</th>
+                <th colspan="1">Amount</th>
+            </tr>
+        </thead>
+        <tbody class='expense-table'>
+        </tbody>
+    </table>
+
+
+    <script src=app.js></script>
+</body>
+
+</html>
